@@ -11,5 +11,18 @@
     }
     p{
         color: var(--grayisBlue);
+        font-size: 16px;
+    }
+}
+
+.reasons{
+    margin-top: 3rem;
+
+    .reason{
+        margin-bottom: 2rem;
+
+        h2{
+            font-size: 22px;
+        }
     }
 }
