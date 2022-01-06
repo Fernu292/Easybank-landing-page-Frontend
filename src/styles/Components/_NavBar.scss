@@ -8,6 +8,15 @@
     }
 }
 
+@keyframes Menu-entry {
+    from{
+        margin-top: -30rem;
+    }
+    to{
+        margin-top: 4rem;
+    }
+}
+
 .navigation{
     padding: 1rem;
     background-color: white;
@@ -20,6 +29,7 @@
         display: flex;
         justify-content: space-between;
     }
+    overflow: hidden;
 }
 
 .logo{
@@ -58,6 +68,8 @@
     padding: 2rem 0;
     border-radius: 8px;
 
+    animation: Meny0entry 2s ;
+
     ul{
         margin: 0;
         padding: 0;
@@ -71,21 +83,6 @@
         color: var(--darkBlue);
     }
 
-    .nav-button{
-        background: rgb(48,211,92);
-        background: linear-gradient(90deg, rgba(48,211,92,1) 12%, rgba(42,182,217,1) 71%);
-        border: none;
-        padding: 1rem 2rem;
-        width: 60%;
-        font-weight: 700;
-        color: white;
-        border-radius: 24px;
-        position: absolute;
-        bottom: -25rem;
-        left: 50%;
-        transform: translate(-50%, -50%);        
-
-    }
 }
 
 .menu-icon:active{

@@ -34,7 +34,6 @@ const NavBar = () => {
             <li>Careers</li>
           </ul>
 
-          <button className="nav-button">Request Invite</button>
         </div>
       </div>
     </nav>
