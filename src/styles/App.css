@@ -1,0 +1,33 @@
+:root{
+    --darkBlue: #2D314D;
+    --limeGreen:#30D35C;
+    --brigthCyan: #2AB6D9;
+
+    /* Neutral colors */
+
+    --grayisBlue: hsl(233, 8%, 62%);
+    --lightGrayisBlue:  hsl(220, 16%, 96%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    --white: #fff;
+}
+
+body{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+#root{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+}

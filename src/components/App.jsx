@@ -1,8 +1,11 @@
 import React from 'react';
+import '../styles/App.css';
 
+//Components
+import Header from './Header';
 const App = () => {
     return (
-        <h1>Appbank</h1>
+        <Header />
     );
 }
  
