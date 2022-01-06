@@ -18,6 +18,11 @@ body{
     padding: 0;
 }
 
+h1,h2{
+    color: var(--darkBlue);
+    font-weight: 400;
+}
+
 img{
     max-width: 100%;
 }

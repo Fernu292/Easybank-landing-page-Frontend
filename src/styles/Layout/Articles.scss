@@ -1,0 +1,41 @@
+
+.articles{
+    background-color: var(--veryLightGray);
+    text-align: center;
+    padding-top: 3rem;
+}
+.card-article{
+    background-color: white;
+    img{
+        border-radius: 10px 10px 0 0;
+    }
+
+    &{
+        border-radius: 10px 10px;
+    }
+    div{
+        padding: 1rem;
+    }
+    .author{
+        color: var(--grayisBlue);
+        font-size: 12px;
+        text-align: start;
+    }
+
+    .title{
+        font-size: 22px;
+        text-align: start;
+    }
+
+    .content{
+        font-size: 16px;
+        color: var(--grayisBlue);
+        text-align: start;
+    }
+}
+
+.articles-grid{
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 3rem;
+}
