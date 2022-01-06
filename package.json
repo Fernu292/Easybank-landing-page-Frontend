@@ -1,0 +1,34 @@
+{
+  "name": "easybank-landing-page-master",
+  "version": "1.0.0",
+  "description": "frontend landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve"
+  },
+  "keywords": [
+    "Front",
+    "end",
+    "Developer",
+    "Landing",
+    "page"
+  ],
+  "author": "Luis Fernando <fernu292@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^4.7.2"
+  }
+}
