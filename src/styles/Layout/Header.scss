@@ -2,8 +2,13 @@
 .bg-image{
     position: absolute;
     top: 0;
+    right: 0;
     z-index: -1;
-    object-fit: contain;
+}
+
+.Bg-mobile{
+    width: 100vh;
+    object-fit: cover;
 }
 
 .phone-img{

@@ -14,7 +14,7 @@ const Header = () => {
     <header className="header">
       <NavBar />
       <div className="bg-image">
-        <img src={BGMobile} alt="Bg-mobile" />
+        <img src={BGMobile} alt="Bg-mobile" className="Bg-mobile"/>
         <img src={Phones} alt="Bg-mobile" className="phone-img" />
       </div>
 
