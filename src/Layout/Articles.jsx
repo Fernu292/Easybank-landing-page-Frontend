@@ -45,7 +45,7 @@ const Articles = () => {
         <h1>Latest Articles</h1>
 
         {articles.map((article) => (
-          <Article article={article} />
+          <Article article={article} key={article.title}/>
         ))}
       </div>
     </section>
