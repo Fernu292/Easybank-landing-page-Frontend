@@ -45,7 +45,7 @@
     position: absolute;
     height: 70%;
     width: 100%;
-    top: 10rem;
+    top: 8rem;
     right: 0;
     left: 0;
     z-index: -1;
@@ -89,4 +89,33 @@
     animation-name: Menu-animation;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+}
+
+@media (min-width:1200px) {
+    .menu-icon{
+        display: none;
+    }
+
+    .Menu-Desk{
+        position: relative;
+        display: inline;
+        ul{
+            display: flex;
+            padding: none;
+            justify-content: space-between;
+            max-width: max-content;
+            gap: 3rem;
+
+            li{
+                list-style: none;
+                color: var(--grayisBlue);
+                font-size: 18px;
+            }
+        }
+    }
+
+    .btn-desktop{
+        max-width: max-content;
+        padding: 0.2rem 2rem;
+    }
 }

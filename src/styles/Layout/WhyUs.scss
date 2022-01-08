@@ -26,3 +26,29 @@
         }
     }
 }
+
+@media (min-width: 1200px) {
+    .reasons{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 2rem;
+        font-size: 3rem;
+    }
+
+    .reason{
+        img{
+            display: flex;
+            align-items: flex-start;
+        }
+    }
+    .whyUs{
+        h2, p{
+            text-align: start;
+        }
+
+        font-size: 2rem;
+        padding: 5rem 1rem;
+        z-index: -2;
+        position: relative;
+    }
+}

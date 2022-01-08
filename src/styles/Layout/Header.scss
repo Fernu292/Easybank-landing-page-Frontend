@@ -37,3 +37,55 @@
         color: var(--grayisBlue);
     }
 }
+
+@media (min-width: 1200px) {
+    
+    
+    .hero-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 35rem;
+
+        .header-content{
+            margin: 0 auto;
+            text-align: start;
+            position:static;
+            grid-row: 1 / 2;
+
+            h2{
+                font-size: 4.5rem;
+                font-weight: 300;
+            }
+
+            button{
+                max-width: max-content;
+            }
+        }
+    }
+
+    .bg-image{
+        position: relative;
+        grid-column: 2 / 3;
+        height: max-content;
+        z-index: auto;
+    }
+    
+    .Bg-mobile{
+       position: absolute;
+       width: 150vh;
+       height: 100vh;
+       z-index: -4;
+       top: -15rem;
+       right: -6.9em;
+       object-fit: cover;
+       object-position: bottom left;
+    }
+    .phone-img{
+        position: relative;
+        margin-left: 10rem;
+        right: -15rem;
+        height: 50rem;
+        z-index: -1;
+        
+    }
+}

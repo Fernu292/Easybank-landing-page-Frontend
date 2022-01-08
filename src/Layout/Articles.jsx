@@ -41,12 +41,15 @@ const articles = [
 const Articles = () => {
   return (
     <section className="articles">
-      <div className="container articles-grid">
+      <div className="container">
         <h1>Latest Articles</h1>
 
-        {articles.map((article) => (
-          <Article article={article} key={article.title}/>
-        ))}
+        <div className="articles-grid">
+          {articles.map((article) => (
+            <Article article={article} key={article.title}/>
+          ))}
+        </div>
+        
       </div>
     </section>
   );

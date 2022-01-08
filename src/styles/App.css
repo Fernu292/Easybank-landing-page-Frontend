@@ -18,6 +18,10 @@ body{
     padding: 0;
 }
 
+button{
+    cursor: pointer;
+}
+
 h1,h2{
     color: var(--darkBlue);
     font-weight: 400;
