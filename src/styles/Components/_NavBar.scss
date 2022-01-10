@@ -17,6 +17,7 @@
     }
 }
 
+
 .navigation{
     padding: 1rem;
     background-color: white;
@@ -36,8 +37,11 @@
     object-fit: contain;
 }
 
-
 .hidden{
+    display: none;
+}
+
+.btn-desktop{
     display: none;
 }
 
@@ -91,6 +95,16 @@
     animation-iteration-count: infinite;
 }
 
+@media (min-width: 420px){
+    .menu{
+        width: 40%;
+    }
+
+    .show{
+        top: -5rem;
+    }
+}
+
 @media (min-width:1200px) {
     .menu-icon{
         display: none;
@@ -116,6 +130,6 @@
 
     .btn-desktop{
         max-width: max-content;
-        padding: 0.2rem 2rem;
+        padding: 0.1rem 1rem;
     }
 }

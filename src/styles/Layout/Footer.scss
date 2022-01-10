@@ -45,3 +45,52 @@
     }
     
 }
+
+@media (min-width: 1200px) {
+    .footer-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .social{
+        grid-row: 2 / 3;
+    }
+
+    .rights{
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+
+        margin-top: -10rem;
+        text-align: right;
+        margin-bottom: 5rem;
+    }
+
+    #btn-footer{
+        width: max-content;
+        justify-self: right;
+        margin-top: -1rem;
+        margin-bottom: -5rem;
+    }
+
+    .nav-footer{
+        margin-top: 5rem;
+        margin-bottom: -1rem;
+        ul{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .logo-footer{
+        margin-top: -3rem;
+        margin-bottom: -5rem;
+    }
+    .social{
+        margin-top: -1rem;
+    }
+
+    .footer{
+        padding: 15rem auto;
+    }
+}

@@ -37,10 +37,8 @@ const NavBar = () => {
             <li>Careers</li>
           </ul>
         </div>
-          {width >= 1200 
-            ? <button className="btn-principal btn-desktop">Reuest Invite</button>
-            : null
-          }
+          <button className="btn-principal btn-desktop" >Reuest Invite</button>
+          
       </div>
     </nav>
   );

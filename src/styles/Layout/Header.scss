@@ -38,6 +38,36 @@
     }
 }
 
+@media (min-width:480px){
+    .hero-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .bg-image{
+        position: relative;
+        grid-column: 2 / 3;
+    }
+
+    .Bg-mobile{
+        position: absolute;
+        width: 40rem;
+        height: 30rem;
+        object-fit: contain;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .header-content{
+        grid-row: 1 / 2;
+        height: max-content;
+        margin: 5rem;
+    }
+}
 @media (min-width: 1200px) {
     
     
@@ -89,3 +119,4 @@
         
     }
 }
+

@@ -35,9 +35,9 @@ const Footer = () => {
             </ul>
         </div>
 
-        <button className="btn-principal">Request Invite</button>
+        <button className="btn-principal" id="btn-footer">Request Invite</button>
 
-        <p>@EasyBank. All rights reserved</p>
+        <p className="rights">@EasyBank. All rights reserved</p>
       </div>
     </footer>
   );
