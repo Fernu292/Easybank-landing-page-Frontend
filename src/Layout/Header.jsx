@@ -20,18 +20,10 @@ const Header = () => {
       <NavBar />
       <div className="hero-content container">
         <div className="bg-image">
-          <img src={ width < 1200 
-            ?BGMobile
-            :BGDesktop
-            } 
-            alt="Bg-mobile" 
-            className="Bg-mobile"
-            id="Bg-header"
-            />
           <img src={Phones} alt="Bg-mobile" className="phone-img" />
         </div>
 
-        <div className={`header-content ${width<1200 ? "container" : null }`}>
+        <div className={`header-content container`}>
           <h2>Next generation digital banking</h2>
 
           <p>

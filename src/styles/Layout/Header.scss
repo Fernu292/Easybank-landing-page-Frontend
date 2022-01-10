@@ -2,21 +2,18 @@
 .bg-image{
     position: absolute;
     top: 0;
-    right: 0;
-    z-index: -1;
+    left: 0;
+    z-index: -2;
+    width: 100%;
+    background-image: url("../../images/bg-intro-mobile.webp");
+    background-size: cover;
 }
-
-.Bg-mobile{
-    width: 100vh;
-    object-fit: cover;
-}
-
 .phone-img{
-    position: absolute;
-    top: -3rem;
+    position: relative;
+    top: -2rem;
     right: 0;
     bottom: 0;
-    left: 0;
+    left: 3rem;
     margin: auto;
     object-fit: contain;
     max-width: 80%;
@@ -46,20 +43,24 @@
     }
 
     .bg-image{
-        position: relative;
-        grid-column: 2 / 3;
-    }
-
-    .Bg-mobile{
         position: absolute;
-        width: 40rem;
-        height: 30rem;
-        object-fit: contain;
-        top: 0;
-        bottom: 0;
+        overflow:hidden ;
+        grid-column: 2 / 3;
+        z-index: -1;
         right: 0;
-        left: 0;
-        margin: auto;
+        left: auto;
+        max-width: 50%;
+        background-image: url("../../images/bg-intro-desktop.webp");
+        background-position: left center;
+        background-size: cover;
+    }
+    .phone-img{
+        position: relative;
+        margin-left: 10rem;
+        right: -15rem;
+        height: 50rem;
+        z-index: 3;
+        
     }
 
     .header-content{
@@ -94,28 +95,23 @@
     }
 
     .bg-image{
-        position: relative;
+        position: absolute;
+        overflow:hidden ;
         grid-column: 2 / 3;
-        height: max-content;
-        z-index: auto;
-    }
-    
-    .Bg-mobile{
-       position: absolute;
-       width: 150vh;
-       height: 100vh;
-       z-index: -4;
-       top: -15rem;
-       right: -6.9em;
-       object-fit: cover;
-       object-position: bottom left;
+        z-index: -1;
+        right: 0;
+        left: auto;
+        max-width: 50%;
+        background-image: url("../../images/bg-intro-desktop.webp");
+        background-position: left center;
+        background-size: cover;
     }
     .phone-img{
         position: relative;
         margin-left: 10rem;
         right: -15rem;
         height: 50rem;
-        z-index: -1;
+        z-index: 3;
         
     }
 }
